@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { fetchLatestNews } from "../api/newsApi";
+import { fetchLatestNews } from "../api/NewsApi";
 import NewsGallery from "../utils/NewsGallery";
 
 export default function Home() {
